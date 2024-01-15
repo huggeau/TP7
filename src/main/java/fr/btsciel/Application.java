@@ -40,11 +40,10 @@ public class Application extends LiaisonSerie{
         configurerParametres(9600, 8, 0, 2);
     }
     public void deconnexionCapteur(){
-
         fermerPort();
     }
     public void ecrire(byte[] b){
-
+        super.ecrire(b);
     }
 }
 
